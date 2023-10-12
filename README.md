@@ -30,9 +30,9 @@ O banco tem interesse em realizar ofertas de serviços para o público entre 25 
 ### Faixas de Score para Propensão
 As faixas de score para classificar a propensão dos clientes são definidas da seguinte maneira:
 
-Alta Propensão: Score acima de 0.75
-Média Propensão: Score entre 0.5 e 0.75
-Baixa Propensão: Score abaixo de 0.5
+* Alta Propensão: Score acima de 0.75
+* Média Propensão: Score entre 0.5 e 0.75
+* Baixa Propensão: Score abaixo de 0.5
 
 ### Implantação do Modelo
 O modelo será implantado através de uma API que será consumida online. As equipes de marketing/vendas terão acesso a uma página web onde poderão fazer upload do conjunto de dados disponíveis no momento. Em retorno, obterão três planilhas separadas de acordo com o score dos clientes. O banco considera custos computacionais limitados em relação à infraestrutura em nuvem, portanto, o menor custo deve ser considerado.
@@ -40,9 +40,9 @@ O modelo será implantado através de uma API que será consumida online. As equ
 ### Métricas de Avaliação
 O desempenho do modelo será avaliado com base nas seguintes métricas:
 
-AUC-ROC: Área sob a curva ROC, indicando a capacidade de discriminação do modelo.
-Índice Gini: Métrica derivada da AUC-ROC que quantifica a desigualdade ou impureza do modelo.
-Estatística KS (Kolmogorov-Smirnov): Mede a diferença máxima entre as funções de distribuição acumulada de eventos e não eventos.
+* AUC-ROC: Área sob a curva ROC, indicando a capacidade de discriminação do modelo.
+* Índice Gini: Métrica derivada da AUC-ROC que quantifica a desigualdade ou impureza do modelo.
+* Estatística KS (Kolmogorov-Smirnov): Mede a diferença máxima entre as funções de distribuição acumulada de eventos e não eventos.
 
 ### Dados Disponíveis
 Será disponibilizado um conjunto de dados completo que inclui informações demográficas dos clientes, dados financeiros, histórico de contatos anteriores e resultados de campanhas de marketing anteriores.
