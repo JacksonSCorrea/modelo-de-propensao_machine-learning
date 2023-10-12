@@ -1,3 +1,4 @@
+
 ## Modelo Preditivo de Propensão à adesão de produtos bancários
 
 Este repositório contém o código e a documentação relacionados ao projeto do modelo preditivo de propensão à subscrição de depósitos bancários a prazo para o Banco Prospex. O objetivo deste projeto é melhorar a eficácia das campanhas de marketing direcionadas a depósitos bancários a prazo, permitindo ao banco prever quais clientes têm maior probabilidade de adquirir esse produto.
