@@ -6,7 +6,9 @@ O projeto foi desenvolvido co orintação ao CRISP-DM, de forma que as etapas s�
 
 ### Contexto
 O Banco Prospex, uma instituição bancária portuguesa, enfrenta desafios na eficácia de suas campanhas de marketing para depósitos bancários a prazo. Atualmente, as abordagens de marketing são amplas e pouco personalizadas, resultando em baixas taxas de conversão e uso ineficaz de recursos.
+
 ---
+
 ### Desafio de Negócio
 O desafio deste projeto é criar um modelo de propensão à compra de depósitos bancários a prazo que permita à instituição:
 
