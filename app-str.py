@@ -40,13 +40,27 @@ def main():
     # AUTOR E VERSÃO
     # =============================================================================================
 
-    st.write("""Desenvolvido por Jackson Corrêa - v00 - novembro/2023<br>
-    <a href='https://www.linkedin.com/in/jackson-corrêa' target='_blank'>Acesse meu LinkedIn</a>  |
-               <a href='https://www.github.com/JacksonSCorrea' target='_blank'>Acesse meu GitHub</a>""" , 
-               unsafe_allow_html=True)
-    
+    col1, col2= st.columns([1,1])
+    with col1:
 
-    # Linha separadora
+        st.write("""Desenvolvido por Jackson Corrêa <br> v01 - dezembro/2023<br>
+        <a href='https://www.linkedin.com/in/jackson-corrêa' target='_blank'>Acesse meu LinkedIn</a>  <br>
+                <a href='https://www.github.com/JacksonSCorrea' target='_blank'>Acesse meu GitHub</a>""" , 
+                unsafe_allow_html=True)
+
+    # =============================================================================================
+    # Amostras para download
+    # =============================================================================================
+
+    with col2:
+        st.write("""Download das amostras para teste<br>
+            <a href='https://github.com/JacksonSCorrea/modelo-de-propensao_machine-learning/blob/main/amostra1.csv' target='_blank'>Amostra 1 - 5 observações</a>   <br>
+            <a href='https://github.com/JacksonSCorrea/modelo-de-propensao_machine-learning/blob/main/amostra2.csv' target='_blank'>Amostra 2 - 100 observações</a> <br>
+            <a href='https://github.com/JacksonSCorrea/modelo-de-propensao_machine-learning/blob/main/amostra3.csv' target='_blank'>Amostra 3 - 300 observações</a>
+                """ , 
+                    unsafe_allow_html=True)
+
+     # Linha separadora
     st.markdown("<hr>", unsafe_allow_html=True)
 
 
@@ -57,14 +71,13 @@ def main():
     col1, col2= st.columns([1,1])
 
     with col1:
-        st.write('''
-                **Informações do modelo:**
+        st.write('''**Modelo RandomForestClassifier:**
                  
-                 • Algoritmo: RandomForestClassifier\n
-                 • AUC-ROC: 0.77\n
-                 • Gini: 0.54\n
-                 • KS: 0.44\n
-                ''')
+    Recall: 0.67  
+    AUC-ROC: 0.76  
+    Gini: 0.52
+    KS: 0.44 ''')
+
     with col2:
         st.write('**Arquitetura da aplicação:**')
         st.image('arquitetura_aplicacao.png', use_column_width='auto')
