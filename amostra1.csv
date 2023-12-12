@@ -1,0 +1,6 @@
+age,job,marital,education,default,housing,loan,contact,month,day_of_week,campaign,pdays,previous,poutcome,emp.var.rate,cons.price.idx,cons.conf.idx,euribor3m,nr.employed,y,ID
+30,technician,married,university.degree,no,no,no,telephone,may,tue,4,999,0,nonexistent,1.1,93.994,-36.4,4.856,5191.0,no,0cfdb661
+32,technician,married,university.degree,no,no,no,cellular,jul,wed,1,999,0,nonexistent,1.4,93.918,-42.7,4.957,5228.1,no,9d974152
+47,self-employed,married,university.degree,no,no,no,cellular,aug,tue,5,999,0,nonexistent,1.4,93.444,-36.1,4.965,5228.1,no,f87b59f9
+39,admin.,single,university.degree,no,no,no,cellular,jul,tue,1,999,0,nonexistent,1.4,93.918,-42.7,4.961,5228.1,no,4eed2791
+44,admin.,married,high.school,no,yes,no,telephone,may,mon,2,999,0,nonexistent,1.1,93.994,-36.4,4.857,5191.0,no,9aa7beee
