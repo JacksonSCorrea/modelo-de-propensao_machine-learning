@@ -53,7 +53,15 @@ O modelo será implantado através de uma API que será consumida online. As equ
 ---
 
 ### Métricas de Avaliação
-O desempenho do modelo será avaliado com base nas seguintes métricas:
+Estabeleceu-se que a métrica principal de avaliação do modelo sera:
+* Recall: É uma medida utilizada em avaliação de modelos de classificação,
+especialmente em problemas onde a identificação de casos positivos é crucial.
+Também é conhecida como sensibilidade, taxa de verdadeiros positivos ou taxa de captura.
+É calculado pela seguinte fórmula: 
+
+  **Verdadeiras positivos / (Verdadeiras positivos+Falsos negativos)**
+
+Além disso, não é obrigatório mas recomendado que se avalie as seguintes métricas:
 
 * AUC-ROC: Área sob a curva ROC, indicando a capacidade de discriminação do modelo.
 * Índice Gini: Métrica derivada da AUC-ROC que quantifica a desigualdade ou impureza do modelo.
