@@ -313,6 +313,9 @@ def main():
         # backup da coluna de id
         bkp_id = df['ID'].values
 
+    # Solicitando a chave da OpenAI antes de escorar
+    API_KEY = st.text_input("Digite sua API Key da OpenAI", type='password')
+
     # Botaão de escoragem da tabela
     consulta2 = st.button('Escorar tabela')
 
@@ -408,10 +411,6 @@ def main():
             # API chatGPT (dentro do comando do botão de escoragem de tabela)
             # =============================================================================================
 
-
-            # API_KEY = st.text_input("Digite sua API Key da OpenAI", type='password')
-
-            API_KEY = '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'
 
             headers = {"Authorization" : f"Bearer {API_KEY}" , "Content-Type": "application/json"}
 
